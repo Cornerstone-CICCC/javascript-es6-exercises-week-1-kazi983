@@ -32,7 +32,8 @@ T-1 seconds
 Solid rocket booster ignition and liftoff!
 */
 
-for (let s = 60; s >= 0; s--) {
+let s = 60;
+while (s >= 0) {
   switch (s) {
     case 50:
       console.log('Orbiter transfers from ground to internal power');
@@ -55,4 +56,5 @@ for (let s = 60; s >= 0; s--) {
     default:
       console.log(`T-${s} seconds`);
   }
+  s--;
 }
