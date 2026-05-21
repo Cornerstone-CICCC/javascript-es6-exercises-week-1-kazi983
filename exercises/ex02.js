@@ -10,18 +10,18 @@ Write a series of conditional statements that:
 
 */
 
-const musiciansNum = 2;
+const musiciansNum = 3;
 
-console.log(
-  musiciansNum <= 0
-    ? 'not a group'
-    : musiciansNum === 1
-      ? 'solo'
-      : musiciansNum === 2
-        ? 'duet'
-        : musiciansNum === 3
-          ? 'trio'
-          : musiciansNum === 4
-            ? 'quartet'
-            : 'this is a large group',
-);
+if (musiciansNum <= 0) {
+  console.log('not a group');
+} else if (musiciansNum === 1) {
+  console.log('solo');
+} else if (musiciansNum === 2) {
+  console.log('duet');
+} else if (musiciansNum === 3) {
+  console.log('trio');
+} else if (musiciansNum === 4) {
+  console.log('quartet');
+} else {
+  console.log('this is a large group');
+}
