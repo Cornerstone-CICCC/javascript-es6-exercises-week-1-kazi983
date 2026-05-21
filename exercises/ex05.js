@@ -20,9 +20,9 @@ Then print L to the console.
 
 If shirtWidth, shirtLength, and shirtSleeve don't fit within the range of acceptable values for a specific size, then print NA to the console. For example, if...
 
-var shirtWidth = 18; // size S (small)
-var shirtLength = 29; // size M (medium)
-var shirtSleeve = 8.47; // size M (medium)
+const shirtWidth = 18; // size S (small)
+const shirtLength = 29; // size M (medium)
+const shirtSleeve = 8.47; // size M (medium)
 Then print N/A to the console because the measurements don't all match up with one particular size.
 
 */
