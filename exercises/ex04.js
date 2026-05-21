@@ -18,16 +18,14 @@ I'd like two scoops of vanilla ice cream in a cone with peanuts.
 
 const flavor = 'vanilla'; // vanilla or chocolate
 const vessel = 'bowl'; // cone or bowl
-const toppings = 'waffle'; // sprinkles or peanuts
+const toppings = 'peanuts'; // sprinkles or peanuts
 
 if (
   (flavor === 'vanilla' || flavor === 'chocolate') &&
   (vessel === 'cone' || vessel === 'bowl') &&
   (toppings === 'sprinkles' || toppings === 'peanuts')
 ) {
-  console.log(
-    `I'd like two scoops of ${flavor} ice cream in a ${vessel} with ${toppings}.`,
-  );
+  console.log(`I'd like two scoops of ${flavor} ice cream in a ${vessel} with ${toppings}.`);
 } else {
   console.log('Please order from our menu.');
 }
