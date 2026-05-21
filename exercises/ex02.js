@@ -10,3 +10,18 @@ Write a series of conditional statements that:
 
 */
 
+const musiciansNum = 2;
+
+console.log(
+  musiciansNum <= 0
+    ? 'not a group'
+    : musiciansNum === 1
+      ? 'solo'
+      : musiciansNum === 2
+        ? 'duet'
+        : musiciansNum === 3
+          ? 'trio'
+          : musiciansNum === 4
+            ? 'quartet'
+            : 'this is a large group',
+);
